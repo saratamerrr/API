@@ -1,14 +1,9 @@
 {
   "schemaVersion": 2,
-  "dockerfilePath": "Dockerfile",
-  "build": {
-    "context": "./",
-    "dockerfile": "Dockerfile"
-  },
-  "deploy": {
-    "web": {
-      "branch": "main",
-      "dockerfilePath": "Dockerfile"
-    }
-  }
+  "templateId": "python3",
+  "name": "my-streamlit-app",
+  "description": "A Streamlit app for tracking the International Space Station",
+  "instanceCount": 1,
+  "envVars": {},
+  "dockerfilePath": "Dockerfile"
 }
