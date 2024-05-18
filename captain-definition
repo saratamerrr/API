@@ -1,4 +1,5 @@
 {
+  "schemaVersion": 2,
   "templateId": "python",
   "appName": "iss-streamlit",
   "appSlug": "iss-streamlit",
